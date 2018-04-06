@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "440823947214",
+    "firebase_url": "https://multiplelogins-cf03c.firebaseio.com",
+    "project_id": "multiplelogins-cf03c",
+    "storage_bucket": "multiplelogins-cf03c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440823947214:android:7b9c76ca01a43f34",
+        "android_client_info": {
+          "package_name": "com.clone.tracking.unnamed.unnamedapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440823947214-htp7o5q39nnf2sceaea8mrnuj1vq9a27.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.clone.tracking.unnamed.unnamedapp",
+            "certificate_hash": "a571910fe7e6a4eb659b3c3fa858234e49d84f9f"
+          }
+        },
+        {
+          "client_id": "440823947214-6g1dm88cnemk9c41mrgeok4mv2rtalrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEvTD0g9QXX0nzOaNjw2mjgYV88VB-PFg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440823947214-6g1dm88cnemk9c41mrgeok4mv2rtalrj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440823947214:android:38a5908777f714b1",
+        "android_client_info": {
+          "package_name": "com.example.wahdatkashmiri.unknown"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440823947214-o5o5lc1v587ruvpe5l9ctp6vutd7d8t5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wahdatkashmiri.unknown",
+            "certificate_hash": "a571910fe7e6a4eb659b3c3fa858234e49d84f9f"
+          }
+        },
+        {
+          "client_id": "440823947214-6g1dm88cnemk9c41mrgeok4mv2rtalrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEvTD0g9QXX0nzOaNjw2mjgYV88VB-PFg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440823947214-6g1dm88cnemk9c41mrgeok4mv2rtalrj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
