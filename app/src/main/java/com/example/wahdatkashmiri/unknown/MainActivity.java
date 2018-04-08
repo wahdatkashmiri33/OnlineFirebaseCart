@@ -281,6 +281,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+
+        
         //this set the cancel button of the dialog
         dialog.setNegativeButton("CANCEL", new DialogInterface.OnClickListener() {
             @Override
