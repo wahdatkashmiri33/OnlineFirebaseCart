@@ -273,7 +273,7 @@ public class MainActivity extends AppCompatActivity {
                         .addOnFailureListener(new OnFailureListener() {
                             @Override
                             public void onFailure(@NonNull Exception e) {
-                                Snackbar.make(rootLayout,"Registration failed"+e.getMessage(),Snackbar.LENGTH_SHORT)
+                                Snackbar.make(rootLayout,"Registration failed!!!"+e.getMessage(),Snackbar.LENGTH_SHORT)
                                         .show();
                             }
                         });
