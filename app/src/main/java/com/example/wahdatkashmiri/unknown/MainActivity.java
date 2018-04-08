@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     RelativeLayout rootLayout;
 
     FirebaseAuth auth;
-    FirebaseAuth.AuthStateListener mAuthStateListener;
+    //FirebaseAuth.AuthStateListener mAuthStateListener;
     FirebaseDatabase db;
     DatabaseReference users;
 
@@ -87,14 +87,14 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        mAuthStateListener=new FirebaseAuth.AuthStateListener() {
-            @Override
-            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                if (firebaseAuth.getCurrentUser() !=null){
-                    startActivity(new Intent(MainActivity.this,Welcome.class));
-                }
-            }
-        };
+      //  mAuthStateListener=new FirebaseAuth.AuthStateListener() {
+      //      @Override
+      //      public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+       //         if (firebaseAuth.getCurrentUser() !=null){
+       //             startActivity(new Intent(MainActivity.this,Welcome.class));
+        //        }
+        //    }
+       // };
 
         //login
         btnSignIn.setOnClickListener(new View.OnClickListener() {
@@ -114,11 +114,15 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    @Override
-    protected void onStart() {
-        super.onStart();
-        auth.addAuthStateListener(mAuthStateListener);
-    }
+  //  @Override
+   // protected void onStart() {
+   //     super.onStart();
+     //   auth.addAuthStateListener(mAuthStateListener);
+     //   User user=new User();
+
+       // Common.currentUser =user;
+
+  //  }
 
     private void showLoginDialog()
     {

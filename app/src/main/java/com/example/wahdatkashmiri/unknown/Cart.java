@@ -97,7 +97,7 @@ public class Cart extends AppCompatActivity {
                 Request request=new Request(
 
 
-                       Common.currentUser.getEmail(),
+                        Common.currentUser.getEmail(),
                         edtAddress.getText().toString(),
                         edtcontact.getText().toString(),
                         txtTotalprice.getText().toString(),
@@ -108,8 +108,30 @@ public class Cart extends AppCompatActivity {
                         .setValue(request);
                 //delete cart
                 new Database(getBaseContext()).cleanCart();
-                Toast.makeText(Cart.this, "Thank You Your Order has been Successfully Placed", Toast.LENGTH_SHORT).show();
-                     finish();
+                AlertDialog alertDialog = new AlertDialog.Builder(
+                        Cart.this).create();
+
+                // Setting Dialog Title
+                alertDialog.setTitle("Order Placed");
+
+                // Setting Dialog Message
+                alertDialog.setMessage("Your Order Will Be Delivered Shortly");
+
+                // Setting Icon to Dialog
+                alertDialog.setIcon(R.drawable.ic_check_box_black_24dp);
+
+                // Setting OK Button
+                alertDialog.setButton(alertDialog.BUTTON_POSITIVE,"OK",new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        // Write your code here to execute after dialog closed
+                        Toast.makeText(getApplicationContext(), "You clicked on OK", Toast.LENGTH_SHORT).show();
+                    }
+                });
+
+                // Showing Alert Message
+                alertDialog.show();
+
+
             }
         });
         alertDialog.setNegativeButton("No", new DialogInterface.OnClickListener() {
